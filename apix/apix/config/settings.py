@@ -48,7 +48,7 @@ class Settings(BaseSettings):
         "AeroIndex-Research/0.1 "
         "(SIH26056 academic prototype; contact: team-scalex@example.edu)"
     )
-    scrape_rate_per_min: int = 6
+    scrape_rate_per_min: int = 12
     scrape_max_retries: int = 2
     scrape_timeout_ms: int = 30000
     # How many route×window cells the live runner has in flight at once.
