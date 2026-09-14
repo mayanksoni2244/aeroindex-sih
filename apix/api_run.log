@@ -1,0 +1,125 @@
+INFO:     Started server process [9028]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+
+────────────────────────────────────────────────────────────────────
+serve
+────────────────────────────────────────────────────────────────────
+  docs   : http://127.0.0.1:8000/docs
+  health : http://127.0.0.1:8000/v1/health
+  auth   : X-API-Key required (APIX_API_KEY is set)
+
+INFO:     127.0.0.1:61718 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61722 - "GET /v1/index.csv?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57086 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57088 - "GET /v1/index?series=core&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57087 - "GET /v1/index?series=headline&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55841 - "GET /v1/reference-validation?measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57089 - "GET /v1/coverage?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58113 - "GET /v1/index?series=core&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58112 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50701 - "GET /v1/index?series=headline&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54356 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /v1/reference-validation?measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57090 - "GET /v1/heatmap?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57091 - "GET /v1/routes?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60374 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51705 - "GET /v1/coverage?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55383 - "GET /v1/heatmap?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49671 - "GET /v1/routes?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49675 - "GET /v1/index?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /v1/index?mode=live&series=headline&measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49680 - "GET /v1/index?mode=live&series=core&measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62157 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61912 - "GET /v1/index?series=headline&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64487 - "GET /v1/index?series=core&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50966 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49940 - "GET /v1/reference-validation?measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64488 - "GET /v1/coverage?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64490 - "GET /v1/routes?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64489 - "GET /v1/heatmap?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61269 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54489 - "GET /v1/index?series=headline&measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54490 - "GET /v1/index?series=core&measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54493 - "GET /v1/backtest?series=headline&measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50916 - "GET /v1/routes?mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54491 - "GET /v1/coverage?mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54492 - "GET /v1/heatmap?measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50427 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50431 - "GET /v1/index?mode=sandbox&series=headline&measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50432 - "GET /v1/index?mode=sandbox&series=core&measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52711 - "GET /v1/index?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52712 - "GET /v1/index?mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64894 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56910 - "GET /v1/index?series=core&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64895 - "GET /v1/index?series=headline&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56911 - "GET /v1/coverage?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51535 - "GET /v1/reference-validation?measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56913 - "GET /v1/routes?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58072 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58073 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64765 - "GET /v1/index?series=core&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60861 - "GET /v1/index?series=headline&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56912 - "GET /v1/heatmap?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50595 - "GET /v1/reference-validation?measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55255 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52843 - "GET /v1/coverage?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55254 - "GET /v1/routes?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52083 - "GET /v1/heatmap?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57563 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57084 - "GET /v1/index?series=headline&measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50980 - "GET /v1/index?series=core&measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57548 - "GET /v1/backtest?series=headline&measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57549 - "GET /v1/routes?mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57546 - "GET /v1/coverage?mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57547 - "GET /v1/heatmap?measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54359 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56806 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54972 - "GET /v1/index?series=headline&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64333 - "GET /v1/index?series=core&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63949 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64334 - "GET /v1/coverage?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64336 - "GET /v1/routes?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54702 - "GET /v1/reference-validation?measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64335 - "GET /v1/heatmap?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58865 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49166 - "GET /v1/index?series=core&measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49165 - "GET /v1/index?series=headline&measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49169 - "GET /v1/backtest?series=headline&measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59976 - "GET /v1/routes?mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49167 - "GET /v1/coverage?mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49168 - "GET /v1/heatmap?measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55798 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62496 - "GET /v1/index?series=headline&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62497 - "GET /v1/index?series=core&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57681 - "GET /v1/reference-validation?measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62498 - "GET /v1/coverage?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62500 - "GET /v1/routes?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51509 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62499 - "GET /v1/heatmap?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64885 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /v1/index?series=headline&measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49671 - "GET /v1/index?series=core&measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54878 - "GET /v1/backtest?series=headline&measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51248 - "GET /v1/routes?mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54876 - "GET /v1/coverage?mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54877 - "GET /v1/heatmap?measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52242 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=sandbox HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58748 - "GET /v1/index?series=headline&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58749 - "GET /v1/index?series=core&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58747 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57029 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57030 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51871 - "GET /v1/coverage?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63394 - "GET /v1/reference-validation?measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58251 - "GET /v1/routes?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57850 - "GET /v1/index?series=headline&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51771 - "GET /v1/index?series=core&measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59177 - "GET /v1/routes/DEL-BOM/curve?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58250 - "GET /v1/heatmap?measure=total&mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54860 - "GET /v1/reference-validation?measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52788 - "GET /v1/coverage?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49852 - "GET /v1/routes?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57232 - "GET /v1/heatmap?measure=total&mode=live HTTP/1.1" 200 OK

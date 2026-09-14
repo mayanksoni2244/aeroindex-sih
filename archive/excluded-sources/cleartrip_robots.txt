@@ -1,0 +1,27 @@
+# Cleartrip robots.txt — fetched 2026-09-12
+# Source: https://www.cleartrip.com/robots.txt
+
+User-agent: *
+Allow: /
+
+Disallow: /cgi-bin/
+Disallow: /forums/35
+Disallow: /forums/38
+Disallow: /flights/search*
+Disallow: /trains/results*
+Disallow: /trains/search*
+Disallow: /packages/search
+Disallow: /packages/results
+Disallow: /bus/chart
+Disallow: /bus/itinerary/travellers
+Disallow: /pay/bus
+Disallow: /bus/confirmation
+Disallow: /m/flights/search*
+Disallow: /m/hotels/results*
+Disallow: /m/hotels/search*
+Disallow: /m/trains/results*
+Disallow: /m/trains/search*
+Disallow: /m/flights/international/results
+Disallow: /flights/international/search
+Disallow: /smallworld/*
+Disallow: /hot

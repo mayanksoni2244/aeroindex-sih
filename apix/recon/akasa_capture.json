@@ -1,0 +1,9 @@
+[
+  {
+    "method": "POST",
+    "url": "https://prod-bl.qp.akasaair.com/api/ibe/token/generateToken",
+    "request_body": "{\"deviceType\":\"WEB\",\"bookingType\":\"BOOKING\",\"userType\":\"GUEST\"}",
+    "status": 200,
+    "response_body": null
+  }
+]

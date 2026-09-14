@@ -1,0 +1,49 @@
+[project]
+name = "apix"
+version = "0.1.0"
+description = "AeroIndex APIx - Real-time Airfare Price Index for India (SIH26056, Team ScaleX)"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.28",
+    "sqlalchemy>=2.0",
+    "alembic>=1.13",
+    "psycopg[binary]>=3.1",
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "pyyaml>=6.0",
+    "playwright>=1.42",
+    "apscheduler>=3.10",
+    "python-dateutil>=2.9",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "hypothesis>=6.98",
+    "ruff>=0.3",
+]
+
+[project.scripts]
+apix = "apix.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+# `scripts` is included because apix.cli imports the seed/history helpers rather
+# than duplicating them — one implementation, two entry points.
+include = ["apix*", "scripts*"]
+
+[tool.setuptools.package-data]
+apix = ["config/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 100

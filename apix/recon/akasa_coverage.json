@@ -1,0 +1,254 @@
+{
+  "DEL-BOM": {
+    "T+1": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 6880.0,
+      "travel_date": "2026-09-13",
+      "seconds": 22.8,
+      "note": "10 live quote(s) from AkasaAir"
+    },
+    "T+7": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 6880.0,
+      "travel_date": "2026-09-19",
+      "seconds": 18.3,
+      "note": "10 live quote(s) from AkasaAir"
+    },
+    "T+15": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 6880.0,
+      "travel_date": "2026-09-27",
+      "seconds": 17.7,
+      "note": "10 live quote(s) from AkasaAir"
+    },
+    "T+30": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 6880.0,
+      "travel_date": "2026-10-12",
+      "seconds": 18.7,
+      "note": "10 live quote(s) from AkasaAir"
+    },
+    "T+45": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 6880.0,
+      "travel_date": "2026-10-27",
+      "seconds": 19.7,
+      "note": "10 live quote(s) from AkasaAir"
+    }
+  },
+  "DEL-BLR": {
+    "T+1": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 9179.0,
+      "travel_date": "2026-09-13",
+      "seconds": 19.6,
+      "note": "10 live quote(s) from AkasaAir"
+    },
+    "T+7": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 9342.0,
+      "travel_date": "2026-09-19",
+      "seconds": 18.9,
+      "note": "10 live quote(s) from AkasaAir"
+    },
+    "T+15": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 10030.0,
+      "travel_date": "2026-09-27",
+      "seconds": 18.9,
+      "note": "10 live quote(s) from AkasaAir"
+    },
+    "T+30": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 9678.0,
+      "travel_date": "2026-10-12",
+      "seconds": 20.9,
+      "note": "10 live quote(s) from AkasaAir"
+    },
+    "T+45": {
+      "status": "OK",
+      "quotes": 8,
+      "cheapest_total": 9179.0,
+      "travel_date": "2026-10-27",
+      "seconds": 18.6,
+      "note": "8 live quote(s) from AkasaAir"
+    }
+  },
+  "BOM-BLR": {
+    "T+1": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 7264.0,
+      "travel_date": "2026-09-13",
+      "seconds": 20.4,
+      "note": "10 live quote(s) from AkasaAir"
+    },
+    "T+7": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 6249.0,
+      "travel_date": "2026-09-19",
+      "seconds": 19.4,
+      "note": "10 live quote(s) from AkasaAir"
+    },
+    "T+15": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 5599.0,
+      "travel_date": "2026-09-27",
+      "seconds": 19.1,
+      "note": "10 live quote(s) from AkasaAir"
+    },
+    "T+30": {
+      "status": "OK",
+      "quotes": 6,
+      "cheapest_total": 5400.0,
+      "travel_date": "2026-10-12",
+      "seconds": 38.5,
+      "note": "6 live quote(s) from AkasaAir"
+    },
+    "T+45": {
+      "status": "OK",
+      "quotes": 10,
+      "cheapest_total": 5400.0,
+      "travel_date": "2026-10-27",
+      "seconds": 112.4,
+      "note": "10 live quote(s) from AkasaAir"
+    }
+  },
+  "DEL-CCU": {
+    "T+1": {
+      "status": "OK",
+      "quotes": 4,
+      "cheapest_total": 8712.0,
+      "travel_date": "2026-09-13",
+      "seconds": 18.5,
+      "note": "4 live quote(s) from AkasaAir"
+    },
+    "T+7": {
+      "status": "OK",
+      "quotes": 4,
+      "cheapest_total": 8259.0,
+      "travel_date": "2026-09-19",
+      "seconds": 18.2,
+      "note": "4 live quote(s) from AkasaAir"
+    },
+    "T+15": {
+      "status": "OK",
+      "quotes": 4,
+      "cheapest_total": 8406.0,
+      "travel_date": "2026-09-27",
+      "seconds": 18.6,
+      "note": "4 live quote(s) from AkasaAir"
+    },
+    "T+30": {
+      "status": "OK",
+      "quotes": 4,
+      "cheapest_total": 9700.0,
+      "travel_date": "2026-10-12",
+      "seconds": 19.7,
+      "note": "4 live quote(s) from AkasaAir"
+    },
+    "T+45": {
+      "status": "OK",
+      "quotes": 4,
+      "cheapest_total": 14755.0,
+      "travel_date": "2026-10-27",
+      "seconds": 18.8,
+      "note": "4 live quote(s) from AkasaAir"
+    }
+  },
+  "MAA-DEL": {
+    "T+1": {
+      "status": "EMPTY_NO_INVENTORY",
+      "quotes": 0,
+      "cheapest_total": null,
+      "travel_date": "2026-09-13",
+      "seconds": 279.0,
+      "note": "no sellable non-stop MAA-DEL fare on 2026-09-13"
+    },
+    "T+7": {
+      "status": "EMPTY_NO_INVENTORY",
+      "quotes": 0,
+      "cheapest_total": null,
+      "travel_date": "2026-09-19",
+      "seconds": 280.4,
+      "note": "no sellable non-stop MAA-DEL fare on 2026-09-19"
+    },
+    "T+15": {
+      "status": "EMPTY_NO_INVENTORY",
+      "quotes": 0,
+      "cheapest_total": null,
+      "travel_date": "2026-09-27",
+      "seconds": 279.2,
+      "note": "no sellable non-stop MAA-DEL fare on 2026-09-27"
+    },
+    "T+30": {
+      "status": "EMPTY_NO_INVENTORY",
+      "quotes": 0,
+      "cheapest_total": null,
+      "travel_date": "2026-10-12",
+      "seconds": 281.8,
+      "note": "no sellable non-stop MAA-DEL fare on 2026-10-12"
+    },
+    "T+45": {
+      "status": "EMPTY_NO_INVENTORY",
+      "quotes": 0,
+      "cheapest_total": null,
+      "travel_date": "2026-10-27",
+      "seconds": 281.3,
+      "note": "no sellable non-stop MAA-DEL fare on 2026-10-27"
+    }
+  },
+  "BLR-HYD": {
+    "T+1": {
+      "status": "EMPTY_NO_INVENTORY",
+      "quotes": 0,
+      "cheapest_total": null,
+      "travel_date": "2026-09-13",
+      "seconds": 282.8,
+      "note": "no sellable non-stop BLR-HYD fare on 2026-09-13"
+    },
+    "T+7": {
+      "status": "EMPTY_NO_INVENTORY",
+      "quotes": 0,
+      "cheapest_total": null,
+      "travel_date": "2026-09-19",
+      "seconds": 283.1,
+      "note": "no sellable non-stop BLR-HYD fare on 2026-09-19"
+    },
+    "T+15": {
+      "status": "EMPTY_NO_INVENTORY",
+      "quotes": 0,
+      "cheapest_total": null,
+      "travel_date": "2026-09-27",
+      "seconds": 283.1,
+      "note": "no sellable non-stop BLR-HYD fare on 2026-09-27"
+    },
+    "T+30": {
+      "status": "EMPTY_NO_INVENTORY",
+      "quotes": 0,
+      "cheapest_total": null,
+      "travel_date": "2026-10-12",
+      "seconds": 283.3,
+      "note": "no sellable non-stop BLR-HYD fare on 2026-10-12"
+    },
+    "T+45": {
+      "status": "EMPTY_NO_INVENTORY",
+      "quotes": 0,
+      "cheapest_total": null,
+      "travel_date": "2026-10-27",
+      "seconds": 5155.2,
+      "note": "no sellable non-stop BLR-HYD fare on 2026-10-27"
+    }
+  }
+}

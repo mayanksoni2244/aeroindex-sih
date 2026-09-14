@@ -1,0 +1,98 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Route metadata — sanity bounds, simulation base fares, distances.
+#
+# `sanity_min` / `sanity_max` are PARSING-ERROR guards (spec §3.5), not
+# statistical outlier fences. A fare outside this band means we misread the
+# page (e.g. picked up a ₹45 baggage fee or a ₹4,500,000 figure with a units
+# bug), so it is rejected with status VALIDATION_REJECT and never enters the
+# index. Statistical outliers are handled separately by the IQR stage, which
+# FLAGS rather than deletes.
+#
+# `sim_base_fare` is the T+30 non-stop economy anchor used ONLY by the Tier-B
+# deterministic simulator. It never touches live records.
+# ─────────────────────────────────────────────────────────────────────────────
+routes:
+  - route: "DEL-BOM"
+    origin: "DEL"
+    destination: "BOM"
+    name: "Delhi – Mumbai"
+    distance_km: 1138
+    sim_base_fare: 5200
+    sanity_min: 1500
+    sanity_max: 60000
+
+  - route: "DEL-BLR"
+    origin: "DEL"
+    destination: "BLR"
+    name: "Delhi – Bengaluru"
+    distance_km: 1740
+    sim_base_fare: 5800
+    sanity_min: 1800
+    sanity_max: 65000
+
+  - route: "BOM-BLR"
+    origin: "BOM"
+    destination: "BLR"
+    name: "Mumbai – Bengaluru"
+    distance_km: 837
+    sim_base_fare: 4200
+    sanity_min: 1200
+    sanity_max: 50000
+
+  - route: "DEL-CCU"
+    origin: "DEL"
+    destination: "CCU"
+    name: "Delhi – Kolkata"
+    distance_km: 1305
+    sim_base_fare: 5400
+    sanity_min: 1500
+    sanity_max: 60000
+
+  - route: "MAA-DEL"
+    origin: "MAA"
+    destination: "DEL"
+    name: "Chennai – Delhi"
+    distance_km: 1760
+    sim_base_fare: 6000
+    sanity_min: 1800
+    sanity_max: 65000
+
+  - route: "BLR-HYD"
+    origin: "BLR"
+    destination: "HYD"
+    name: "Bengaluru – Hyderabad"
+    distance_km: 500
+    sim_base_fare: 3200
+    sanity_min: 1000
+    sanity_max: 40000
+
+# Carriers modelled by the Tier-B simulator, with their typical price position
+# relative to the route anchor. IndiGo is the market-share leader and prices
+# near the anchor; full-service carriers sit above it.
+carriers:
+  - code: "6E"
+    name: "IndiGo"
+    price_multiplier: 1.00
+  - code: "QP"
+    name: "Akasa Air"
+    price_multiplier: 0.97
+  - code: "SG"
+    name: "SpiceJet"
+    price_multiplier: 0.95
+  - code: "AI"
+    name: "Air India"
+    price_multiplier: 1.18
+  - code: "IX"
+    name: "Air India Express"
+    price_multiplier: 0.93
+
+# Advance-purchase windows mandated by the problem statement.
+advance_windows: [1, 7, 15, 30, 45]
+
+# Fare-component decomposition used by the simulator (spec §3.4).
+# UDF/taxes are statutory and roughly fixed per sector; convenience fee is the
+# OTA/portal surcharge. These are never collapsed into total_fare alone.
+fare_components:
+  taxes_pct_of_base: 0.05      # GST on air travel (economy) ~5%
+  udf_flat_inr: 150            # User Development Fee, per-departure order of magnitude
+  convenience_fee_inr: 299     # typical OTA portal convenience charge

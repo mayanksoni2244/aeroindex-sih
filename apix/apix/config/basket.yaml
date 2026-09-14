@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# APIx basket configuration  —  seeds the `basket_config` table.
+#
+# PROVENANCE (stated precisely, per README §Weights):
+#   Document : DGCA, "City Pair Wise Scheduled Domestic Passenger Traffic
+#              Statistics", FY2022-23.
+#   Grand total domestic passengers stated in that file : 136,028,656
+#   national_share_pct = (city-pair passengers) / 136,028,656 * 100
+#
+#   `weight` is the national share RENORMALISED across the six basket routes so
+#   that Sum(weight) = 1.0, which is what the Laspeyres formula requires.
+#
+#       basket_sum = 4.13 + 3.28 + 2.69 + 1.99 + 1.32 + 1.50 = 14.91
+#       weight_r   = national_share_pct_r / 14.91
+#
+#   The arithmetic is reproduced in the README and verified by
+#   tests/test_index.py::test_weights_match_the_published_dgca_shares.
+#
+# VERSIONING: never edit a published version in place. Add a new block with a
+# new `basket_version` and set `effective_to` on the old one. The index module
+# chain-links across versions so history stays continuous and reproducible.
+# ─────────────────────────────────────────────────────────────────────────────
+basket_version: "v1-dgca-fy2022-23"
+weight_source: "DGCA City Pair Wise Scheduled Domestic Passenger Traffic Statistics, FY2022-23 (grand total 136,028,656 passengers); renormalised across the 6-route basket"
+effective_from: "2026-01-01"
+effective_to: null
+
+routes:
+  - route: "DEL-BOM"
+    national_share_pct: 4.13
+    weight: 0.2770
+  - route: "DEL-BLR"
+    national_share_pct: 3.28
+    weight: 0.2200
+  - route: "BOM-BLR"
+    national_share_pct: 2.69
+    weight: 0.1804
+  - route: "DEL-CCU"
+    national_share_pct: 1.99
+    weight: 0.1335
+  - route: "MAA-DEL"
+    national_share_pct: 1.50
+    weight: 0.1006
+  - route: "BLR-HYD"
+    national_share_pct: 1.32
+    weight: 0.0885

@@ -1,0 +1,67 @@
+# Fetched https://www.ixigo.com/robots.txt
+# HTTP 200, 1430 bytes
+# UA sent: AeroIndex-Research/0.1 (SIH26056 academic prototype; contact: team-scalex@example.edu)
+# ---- verbatim below ----
+# Hi there! Since you are here, we assume you are either a bot or a geek. In either case, drop us an email at [careers@ixigo.com]. We would love to have a conversation with you ;)
+
+User-agent: *
+
+Disallow: /search/result/
+Disallow: /flights/search
+Disallow: /flights/review
+Disallow: /*.pdf$
+Disallow: /add-a-place/
+Disallow: /ask/
+Disallow: /action/content*
+Disallow: /api/
+Disallow: /cdn-cgi/
+Disallow: /checkbox/
+Disallow: /crossselldeal
+Disallow: /hotels/search/result
+Disallow: /html/help/enabling-javascript.ixi
+Disallow: /html/home.ixi
+Disallow: /important-security-update/FAQ.html
+Disallow: /ixi-api/tracker/track
+Disallow: /ixigoer/
+Disallow: /m/
+Disallow: /mytrips/
+Disallow: /q/
+Disallow: /redirect.ixi
+Disallow: /review-edit/
+Disallow: /tp/
+Disallow: /track/
+Disallow: /trains/v1/search/
+Disallow: *-lp-*
+Disallow: *-ne-*
+Disallow: *-fq-*
+Disallow: /from-by-road/*
+Disallow: /by-air-flight/
+Disallow: /airports/
+Disallow: /plan/itinerary
+Disallow: /hotels/*/details
+Disallow: /hotels/*/room-selection
+Disallow: /trains/booking/
+Disallow: /trains/search-pwa/*
+Disallow: /pwa/initialpage*
+Disallow: /logs/ui
+Disallow: /seo-pages/_next/data/
+Disallow: /seo-pages/_next/data/*
+
+User-agent: AdIdxBot
+Disallow: /
+
+User-agent: MSNBot
+crawl-delay: 10
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /ixi-api/img/
+
+
+#sitemaps
+Sitemap:  https://www.ixigo.com/sitemap/index.xml

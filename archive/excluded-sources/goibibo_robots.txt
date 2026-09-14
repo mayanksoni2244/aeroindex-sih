@@ -1,0 +1,54 @@
+# Goibibo robots.txt — fetched 2026-09-12
+# Source: https://www.goibibo.com/robots.txt
+
+User-agent: google-hoteladsverifier
+Disallow:
+
+User-agent: *
+Disallow: /hotels/*?pg=*
+Disallow: /bus/*?pg=*
+Disallow: /flights/*?mode=*
+Disallow: /hotels/*?PageSpeed*
+Disallow: /flights/*?PageSpeed*
+Disallow: /bus/*?PageSpeed*
+Disallow: /trains/*?PageSpeed*
+Disallow: /destinations/*?PageSpeed*
+Disallow: /destinations/*aggregate*
+Disallow: /ask/*?PageSpeed*
+Disallow: /cars/*?PageSpeed*
+Disallow: /routeplanner/*?PageSpeed*
+Allow: /hotels/getHotelPolicyDataV2/
+Allow: /bus/getsearch/
+Disallow: /cheap/flight-tickets/
+Disallow: /hotels/*?page=*
+Disallow: /accounts/login/
+Disallow: /eticket/
+Disallow: /bus/eticket/
+Disallow: /cab/eticket/
+Disallow: /holidays/eticket/
+Disallow: /hotels/eticket/
+Disallow: /cab/searchticket/
+Disallow: /hotels/searchticket/
+Disallow: /flight/searchticket/
+Disallow: /bus/searchticket/
+Disallow: /holidays/searchticket/
+Disallow: /travel-guide/pdf/
+Disallow: /holidays/holidays-searchresult/
+Disallow: /accounts/login/?next=/feedback/
+Disallow: /common/sendquery/
+Disallow: /common/emailpromo/
+Disallow: /common/searchchunk/
+Disallow: /searchticket/
+Disallow: /tguide2/
+Disallow: /hotels/search-product/
+Disallow: /hotels/find-hotels-in-*/
+Disallow: /hotels/find-sem-hotels-in-*
+Disallow: /hotels/detail/
+Disallow: /hotelsn/
+Disallow: /hotelsm/
+Disallow: /flights/new/
+Disallow: /multicity-flights/new/
+Disallow: /international-flights/new/
+Disallow: /bus-new/
+Disallow: /hotels/writeHotelReview/
+Disallow: /reviews/readRe

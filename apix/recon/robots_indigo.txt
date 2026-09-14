@@ -1,0 +1,5 @@
+# fetched 2026-09-11 22:40:50 from https://www.goindigo.in/robots.txt
+# ERROR ReadError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+# robots.txt could not be retrieved. Under the fail-closed rule this
+# source is treated as NOT PERMITTED.

@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "apix-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "apix/web"],
+      "port": 5173
+    },
+    {
+      "name": "apix-web-attach",
+      "url": "http://localhost:5173",
+      "port": 5173
+    }
+  ]
+}

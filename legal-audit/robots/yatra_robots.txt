@@ -1,0 +1,116 @@
+# Yatra robots.txt — fetched 2026-09-12 (via browser)
+# Source: https://www.yatra.com/robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /FM/
+Disallow: /TP/
+Disallow: /SIFY/
+Disallow: /ZEE/
+Disallow: /TUI/
+Disallow: /DH/
+Disallow: /HT/
+Disallow: /HUGYATRA/
+Disallow: /AGS/
+Disallow: /AG/
+Disallow: /AFFILIATE/
+Disallow: /JT/
+Disallow: /ITZFLY/
+Disallow: /AOL/
+Disallow: /international/AOL/
+Disallow: /ads/
+Disallow: /c/journal/
+Disallow: /h/components/
+Disallow: /content/useralbums/
+Disallow: /YT/YT_common/
+Disallow: /fresco/
+Disallow: /pwa/
+Disallow: /pwa
+Disallow: /cars.html
+Disallow: /buses.html
+Disallow: /index2.html
+Disallow: /hotels-india-v2/
+Disallow: /flights-india-vx/
+Disallow: /holiday-v2/
+Disallow: /spice-jet-offer.html
+Disallow: /hotels-india/hotel/home.htm
+Disallow: /flights-india-yt/aff/
+Disallow: /hotels/affiliateConfirmer.htm
+Disallow: /destinations/in/
+Disallow: /offer/content/images
+Disallow: /monuments/
+Disallow: /yatra-seo/hotel-detail-content
+Disallow: /international/US/india/
+Disallow: /international/YT/
+Disallow: /international/air-tickets/
+Disallow: /international/cheap-tickets/
+Disallow: /international/cheap-airfare/
+Disallow: /international/cheap-airline-tickets/
+Disallow: /international/airlines/
+Disallow: /international/air-fares/
+Disallow: /international/airfare/
+Disallow: /trains-new.html
+Disallow: /hotels-beta/
+Disallow: /hotels-india/hotel/
+Disallow: /travel-beta/cheap-air-tickets
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile-Apps
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+Sitemap: https://www.yatra.com/sitemap.xml
+Sitemap: https://www.yatra.com/sitemap/index.xml
+Sitemap: https://www.yatra.com/sitemap/cheap-flights/search/sitemap.xml
+Sitemap: https://www.yatra.com/sitemap/cheap-flights/search/sitemap1.xml
+Sitemap: https://www.yatra.com/sitemap/flight-schedule.xml

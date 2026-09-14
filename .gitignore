@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Node
+node_modules/
+dist/
+build/
+.env.local
+
+# Databases (Optional, but usually good to ignore in production)
+# apix.db  <-- Hum isko ignore NAHI kar rahe kyunki aapko demo data chahiye
+*.db-shm
+*.db-wal
+
+# OS generated files
+.DS_Store
+Thumbs.db

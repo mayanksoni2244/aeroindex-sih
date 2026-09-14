@@ -1,0 +1,18 @@
+# fetched 2026-09-11 22:41:54 from https://www.airindiaexpress.com/robots.txt
+# HTTP 200
+
+User-agent: * 
+Disallow: /rsm-dashboard
+Disallow: /retro-claim
+Disallow: /loyalty-addon-packs
+Disallow: /tcp-terms
+Disallow: /tcp-terms-mb
+Disallow: /loyalty-benefits-mb
+Disallow: /loyalty-program-mb
+Disallow: /growtrees
+Disallow: /growtrees-certificate
+Disallow: /flight-availability
+Disallow: /dam
+Disallow: /content/dam
+Sitemap: https://www.airindiaexpress.com/sitemap.xml
+

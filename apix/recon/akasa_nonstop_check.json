@@ -1,0 +1,62 @@
+{
+  "MAA-DEL": {
+    "travel_date": "2026-09-28",
+    "fare_responses": 2,
+    "journeys": 1,
+    "segment_counts": [
+      2
+    ],
+    "nonstop": 0,
+    "connecting": 1,
+    "flight_numbers": [
+      null
+    ],
+    "note": "first attempt failed on widget interaction (destination not selectable); retried standalone and confirmed"
+  },
+  "BLR-HYD": {
+    "travel_date": "2026-09-28",
+    "fare_responses": 2,
+    "journeys": 4,
+    "segment_counts": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "nonstop": 0,
+    "connecting": 4,
+    "flight_numbers": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "DEL-BOM": {
+    "travel_date": "2026-09-28",
+    "fare_responses": 2,
+    "journeys": 8,
+    "segment_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "nonstop": 8,
+    "connecting": 0,
+    "flight_numbers": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

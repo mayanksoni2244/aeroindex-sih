@@ -1,0 +1,16 @@
+INFO:     Started server process [24964]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8011 (Press CTRL+C to quit)
+
+────────────────────────────────────────────────────────────────────
+serve
+────────────────────────────────────────────────────────────────────
+  docs   : http://127.0.0.1:8011/docs
+  health : http://127.0.0.1:8011/v1/health
+  auth   : X-API-Key required (APIX_API_KEY is set)
+
+INFO:     127.0.0.1:51942 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64067 - "GET /v1/index?mode=live&series=headline&measure=total HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64071 - "GET /v1/coverage?mode=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53853 - "GET /v1/index?mode=sandbox&series=headline&measure=total HTTP/1.1" 200 OK

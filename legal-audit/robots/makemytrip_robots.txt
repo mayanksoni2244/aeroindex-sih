@@ -1,0 +1,33 @@
+# MakeMyTrip robots.txt — fetched 2026-09-12
+# Source: https://www.makemytrip.com/robots.txt
+
+User-agent: *
+
+# --- Hotels: booking funnel, search, details, rooms, reviews (domestic) ---
+Disallow: /hotels/hotel-listing*
+Disallow: /hotels/hotel-details*
+Disallow: /hotels/hotel-booking*
+Disallow: /hotels/hotel-select-room*
+Disallow: /hotels/hotel-review*
+Disallow: /hotels/user-reviews*
+Disallow: /hotels/filter-sorter*
+
+# --- Hotels: booking funnel (international) ---
+Disallow: /hotels-international/hotel-listing*
+Disallow: /hotels-international/hotel-details*
+Disallow: /hotels-international/hotel-booking*
+Disallow: /hotels-international/pakistan/
+
+# --- Global funnel param blocks ---
+Disallow: /*checkin=
+Disallow: /*checkout=
+Disallow: /*_uCurrency=
+Disallow: /*filterData=
+
+# --- Internal app / booking tokens ---
+Disallow: /*mmthtl*
+Disallow: /*manzdonotbook*
+
+# --- Third-party / review widget endpoints ---
+Disallow: */flyfishReviews?*type=TA
+Disallow: */TARatingR

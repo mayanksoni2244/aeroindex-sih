@@ -1,0 +1,85 @@
+# Fetched https://www.cleartrip.com/robots.txt
+# HTTP 200, 2141 bytes
+# UA sent: AeroIndex-Research/0.1 (SIH26056 academic prototype; contact: team-scalex@example.edu)
+# ---- verbatim below ----
+User-agent: *
+Allow: /
+
+Disallow: /cgi-bin/
+Disallow: /forums/35
+Disallow: /forums/38
+Disallow: /flights/search*
+Disallow: /trains/results*
+Disallow: /trains/search*
+Disallow: /packages/search
+Disallow: /packages/results
+Disallow: /bus/chart
+Disallow: /bus/itinerary/travellers
+Disallow: /pay/bus
+Disallow: /bus/confirmation
+Disallow: /m/flights/search*
+Disallow: /m/hotels/results*
+Disallow: /m/hotels/search*
+Disallow: /m/trains/results*
+Disallow: /m/trains/search*
+Disallow: /m/flights/international/results
+Disallow: /m/flights/international/results
+Disallow: /flights/international/search
+Disallow: /smallworld/*
+Disallow: /hotels/info*
+Disallow: /hotels/info/*
+Disallow: /alerts*
+Disallow: /users/
+Disallow: /urltrack/
+Disallow: /themes_holidays/
+Disallow: /promotions/
+Disallow: /promos/
+Disallow: /forums/
+Disallow: /itinerary/
+Disallow: /waytogo/*
+Disallow: /hotels/search
+Disallow: /hotels/results
+Disallow: /sem-flights-lp
+Disallow: /sem-flights-offer-lp
+Disallow: /signin/
+Disallow: /account/
+Disallow: /signinstatic/
+Disallow: /sem-hotels-lp
+Disallow: /html/
+Disallow: /domesticair/bookflow/emailId
+Disallow: /domesticair/bookflow/TravellerInfo
+Disallow: /partners/dashboard
+Disallow: /messages/500.shtml
+Disallow: /insurance/
+Disallow: /m/signin?service=/m/trips
+Disallow: /ticket/view
+Disallow: /m/signin
+Disallow: /register
+Disallow: /payment/return/tpsl
+Disallow: /reset
+Disallow: /local/signin
+Disallow: /wl/expedia/trips
+Disallow: /internationalair/bookflow/emailId
+Disallow: /bookflow/TravellerInfo
+Disallow: /hotel/bookflow/MakePayment
+Disallow: /api/
+Disallow: /hotels/itinerary/*
+Disallow: /flights/itinerary/*
+Disallow: /trains/itinerary/*
+Disallow: /local/itinerary/*
+Disallow: /packages/itinerary/*
+Disallow: /payment/itinerary/*
+Disallow: /*flights-flights.html
+Disallow: /flights/results/itinerary/loading*
+Disallow: /intake/v2/rum-events
+Disallow: /m/hotels/details/
+Disallow: /hotel/orchestrator/
+Disallow: *?page=
+Disallow: *?service
+Disallow: *?hotelId=
+
+User-agent: bingbot
+Allow: /
+
+Sitemap: https://www.cleartrip.com/sitemap.xml
+Sitemap: https://www.cleartrip.com/hotels/seo-sitemap/hotel-sitemap-index.xml

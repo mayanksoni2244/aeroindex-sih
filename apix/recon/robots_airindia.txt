@@ -1,0 +1,5 @@
+# fetched 2026-09-11 22:41:52 from https://www.airindia.com/robots.txt
+# ERROR ReadTimeout: The read operation timed out
+
+# robots.txt could not be retrieved. Under the fail-closed rule this
+# source is treated as NOT PERMITTED.

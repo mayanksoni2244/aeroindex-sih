@@ -1,0 +1,36 @@
+OK DEL-BOM  T+1   2026-09-13  OK                   n=10      6880    23s  10 live quote(s) from AkasaAir
+OK DEL-BOM  T+7   2026-09-19  OK                   n=10      6880    18s  10 live quote(s) from AkasaAir
+OK DEL-BOM  T+15  2026-09-27  OK                   n=10      6880    18s  10 live quote(s) from AkasaAir
+OK DEL-BOM  T+30  2026-10-12  OK                   n=10      6880    19s  10 live quote(s) from AkasaAir
+OK DEL-BOM  T+45  2026-10-27  OK                   n=10      6880    20s  10 live quote(s) from AkasaAir
+OK DEL-BLR  T+1   2026-09-13  OK                   n=10      9179    20s  10 live quote(s) from AkasaAir
+OK DEL-BLR  T+7   2026-09-19  OK                   n=10      9342    19s  10 live quote(s) from AkasaAir
+OK DEL-BLR  T+15  2026-09-27  OK                   n=10     10030    19s  10 live quote(s) from AkasaAir
+OK DEL-BLR  T+30  2026-10-12  OK                   n=10      9678    21s  10 live quote(s) from AkasaAir
+OK DEL-BLR  T+45  2026-10-27  OK                   n=8       9179    19s  8 live quote(s) from AkasaAir
+OK BOM-BLR  T+1   2026-09-13  OK                   n=10      7264    20s  10 live quote(s) from AkasaAir
+OK BOM-BLR  T+7   2026-09-19  OK                   n=10      6249    19s  10 live quote(s) from AkasaAir
+OK BOM-BLR  T+15  2026-09-27  OK                   n=10      5599    19s  10 live quote(s) from AkasaAir
+OK BOM-BLR  T+30  2026-10-12  OK                   n=6       5400    39s  6 live quote(s) from AkasaAir
+OK BOM-BLR  T+45  2026-10-27  OK                   n=10      5400   112s  10 live quote(s) from AkasaAir
+OK DEL-CCU  T+1   2026-09-13  OK                   n=4       8712    18s  4 live quote(s) from AkasaAir
+OK DEL-CCU  T+7   2026-09-19  OK                   n=4       8259    18s  4 live quote(s) from AkasaAir
+OK DEL-CCU  T+15  2026-09-27  OK                   n=4       8406    19s  4 live quote(s) from AkasaAir
+OK DEL-CCU  T+30  2026-10-12  OK                   n=4       9700    20s  4 live quote(s) from AkasaAir
+OK DEL-CCU  T+45  2026-10-27  OK                   n=4      14755    19s  4 live quote(s) from AkasaAir
+-- MAA-DEL  T+1   2026-09-13  EMPTY_NO_INVENTORY   n=0          -   279s  no sellable non-stop MAA-DEL fare on 2026-09-13
+-- MAA-DEL  T+7   2026-09-19  EMPTY_NO_INVENTORY   n=0          -   280s  no sellable non-stop MAA-DEL fare on 2026-09-19
+-- MAA-DEL  T+15  2026-09-27  EMPTY_NO_INVENTORY   n=0          -   279s  no sellable non-stop MAA-DEL fare on 2026-09-27
+-- MAA-DEL  T+30  2026-10-12  EMPTY_NO_INVENTORY   n=0          -   282s  no sellable non-stop MAA-DEL fare on 2026-10-12
+-- MAA-DEL  T+45  2026-10-27  EMPTY_NO_INVENTORY   n=0          -   281s  no sellable non-stop MAA-DEL fare on 2026-10-27
+-- BLR-HYD  T+1   2026-09-13  EMPTY_NO_INVENTORY   n=0          -   283s  no sellable non-stop BLR-HYD fare on 2026-09-13
+-- BLR-HYD  T+7   2026-09-19  EMPTY_NO_INVENTORY   n=0          -   283s  no sellable non-stop BLR-HYD fare on 2026-09-19
+-- BLR-HYD  T+15  2026-09-27  EMPTY_NO_INVENTORY   n=0          -   283s  no sellable non-stop BLR-HYD fare on 2026-09-27
+-- BLR-HYD  T+30  2026-10-12  EMPTY_NO_INVENTORY   n=0          -   283s  no sellable non-stop BLR-HYD fare on 2026-10-12
+-- BLR-HYD  T+45  2026-10-27  EMPTY_NO_INVENTORY   n=0          -  5155s  no sellable non-stop BLR-HYD fare on 2026-10-27
+
+wrote C:\vs-code\aeroindex-sih\apix\recon\akasa_coverage.json
+==============================================================
+  cells live : 20 of 30 (67%)
+  routes live: 4 of 6 -> BOM-BLR, DEL-BLR, DEL-BOM, DEL-CCU
+  routes with no live fare: BLR-HYD, MAA-DEL

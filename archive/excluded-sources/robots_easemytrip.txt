@@ -1,0 +1,26 @@
+# Fetched https://www.easemytrip.com/robots.txt
+# HTTP 200, 547 bytes
+# UA sent: AeroIndex-Research/0.1 (SIH26056 academic prototype; contact: team-scalex@example.edu)
+# ---- verbatim below ----
+User-Agent: *
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /test/
+Disallow: /cheap_flights/
+Disallow: /cheap-flights/
+Disallow: /flight-search/listing*
+Disallow: /hotel-new/*
+Disallow: /TrainListInfo/
+Disallow: /TrainInfo/
+Disallow: /trainService/
+Disallow: /holiday_packages/
+Disallow: /international_airlines/
+Disallow: /Packages/
+Disallow: /static/
+Disallow: /holiday-query/
+Disallow: /trains/
+Disallow: /*/?e=
+Disallow: /*/htl-in-
+Disallow: *?appcode=
+Disallow: /*?__sta=
+Sitemap: https://www.easemytrip.com/sitemap.xml

@@ -1,0 +1,50 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# India festival / surge calendar.
+#
+# TWO JOBS:
+#  1. The Tier-B simulator uses `multiplier` to generate realistic seasonal
+#     spikes for TRAVEL DATES inside a window.
+#  2. The cleaning pipeline uses these windows as an OUTLIER CARVE-OUT: a fare
+#     above the IQR fence whose travel_date falls in a surge window is flagged
+#     `is_high_demand_outlier = true` and KEPT, because a Diwali fare spike is
+#     genuine inflation that a CPI must capture, not sensor noise.
+#     The headline series includes these points; the core series excludes them.
+#
+# Dates are travel-date windows (IST). Festival dates move year to year, so
+# each occurrence is listed explicitly rather than computed.
+# ─────────────────────────────────────────────────────────────────────────────
+festivals:
+  - name: "Holi 2026"
+    start: "2026-02-27"
+    end: "2026-03-06"
+    multiplier: 1.20
+
+  - name: "Eid al-Fitr 2026"
+    start: "2026-03-17"
+    end: "2026-03-23"
+    multiplier: 1.15
+
+  - name: "Summer vacation 2026"
+    start: "2026-05-01"
+    end: "2026-06-30"
+    multiplier: 1.20
+
+  - name: "Dussehra 2026"
+    start: "2026-10-14"
+    end: "2026-10-24"
+    multiplier: 1.25
+
+  - name: "Diwali 2026"
+    start: "2026-11-02"
+    end: "2026-11-14"
+    multiplier: 1.30
+
+  - name: "Christmas / New Year 2026-27"
+    start: "2026-12-20"
+    end: "2027-01-04"
+    multiplier: 1.25
+
+  - name: "Holi 2027"
+    start: "2027-03-08"
+    end: "2027-03-15"
+    multiplier: 1.20
